@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # DRF
     'rest_framework',
+    'django_filters',
     # local
     'fiis',
     'fiis.apps.api'
