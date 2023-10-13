@@ -4,5 +4,10 @@
       "when": "$(basename).py"
     },
     "**/__pycache__": true
-  }
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true
+  },
+  "editor.tabSize": 4
 }
